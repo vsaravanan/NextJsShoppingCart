@@ -1,10 +1,13 @@
 import Image from 'next/image';
-import { useDispatch } from 'react-redux';
-import { addToCart } from '../redux/cart.slice';
+// import { useDispatch } from 'react-redux';
+// import { addToCart } from '../redux/cart.slice.js.old';
+import useCartStore from '/redux/useCartStore';
 import styles from '../styles/ProductCard.module.css';
 
 const ProductCard = ({ product }) => {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch();
+  const { addToCart } = useCartStore();
+
 
   return (
     <div className={styles.card}>
@@ -13,7 +16,7 @@ const ProductCard = ({ product }) => {
       <h5 className={styles.category}>{product.category}</h5>
       <p>$ {product.price}</p>
       <button
-        onClick={() => dispatch(addToCart(product))}
+        onClick={() => addToCart(product)}
         className={styles.button}
       >
         Add to Cart
