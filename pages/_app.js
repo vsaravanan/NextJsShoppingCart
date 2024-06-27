@@ -6,10 +6,10 @@ import '../styles/globals.css'
 // import { createRoot, hydrateRoot } from 'react-dom/client'
 // import App from 'next/app';
 
-import { createRoot } from 'react-dom/client'
-const container = document.getElementById('app')
-const root = createRoot(container)
-root.render(<App tab='home' />)
+// import { createRoot } from 'react-dom/client'
+// const container = document.getElementById('app')
+// const root = createRoot(container)
+// root.render(<App tab='home' />)
 
 const MyApp = ({ Component, pageProps }) => {
   return (
