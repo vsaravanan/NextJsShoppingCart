@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider next dev",
+    "dev": "cross-env NODE_OPTIONS=--openssl-legacy-provider PORT=10600 next dev",
     "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider next build",
     "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider next start"
   },
@@ -17,6 +17,8 @@
     "zustand": "^4.5.4"
   },
   "devDependencies": {
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "eslint": "^9.5.0",
+    "eslint-config-next": "^14.2.4"
   }
 }
