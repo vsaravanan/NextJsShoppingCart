@@ -3,7 +3,7 @@
     "react-app",
     "eslint:recommended",
     "plugin:flowtype/recommended",
-    "prettier",
+    "plugin:prettier/recommended",
     "next/core-web-vitals"
   ],
   "plugins":  ["html", "standard", "prettier", "react", "import", "flowtype"],
