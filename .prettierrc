@@ -10,5 +10,15 @@
   "parser": "typescript",
   "semi": false,
   "quoteProps": "preserve",
-  "arrowParens": "avoid"
+  "arrowParens": "avoid",
+  "overrides": [
+      {
+        "files": "*.json",
+        "options": {
+          "trailingComma": "none",
+          "singleQuote": false,
+          "semi": false
+        }
+      }
+    ]  
 }
