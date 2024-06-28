@@ -33,6 +33,11 @@ const images = [
   'https://imgur.com/v3lqCEb.png',
   'https://imgur.com/wvpHOCm.png',
   'https://imgur.com/xJD093X.png',
+  'https://imgur.com/uKQqsuA.png',
+  'https://imgur.com/3Y1DLYC.png',
+  'https://imgur.com/Dm212HS.png',
+  'https://imgur.com/qb6IW1f.png',
+  'https://imgur.com/HsUfuRU.png',
 ]
 
 const downloadImage = async (url, filepath) => {
