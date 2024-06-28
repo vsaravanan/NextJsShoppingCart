@@ -22,9 +22,7 @@ const Navbar = () => {
           <Link href='/shop'>Shop</Link>
         </li>
         <li className={styles.navlink}>
-          <Link href='/cart'>
-            <a>Cart ({count})</a>
-          </Link>
+          <Link href='/cart'>Cart ({count})</Link>
         </li>
       </ul>
     </nav>
