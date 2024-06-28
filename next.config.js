@@ -3,7 +3,7 @@ module.exports = {
     ignoreDuringBuilds: true,
   },
   images: {
-    domains: ['https://imgur.com'],
+    domains: ['imgur.com'],
     // remotePatterns: [
     //   {
     //     protocol: 'https',
