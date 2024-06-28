@@ -34,7 +34,7 @@ const CartPage = () => {
           {cart.map((item, i) => (
             <div key={i} className={styles.body}>
               <div className={styles.image}>
-                <Image src={item.image} height='90' width='65' />
+                <Image src={item.image} alt={item.image} height='90' width='65' />
               </div>
               <p>{item.product}</p>
               <p>$ {item.price}</p>
