@@ -6,7 +6,7 @@ module.exports = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'nexts.saravanjs.com',
+        hostname: 'imgur.com',
         port: '',
         pathname: '/**',
       },
